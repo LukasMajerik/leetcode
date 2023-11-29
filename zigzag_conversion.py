@@ -22,6 +22,7 @@ class ZigZagRow:
         self.row = 0
 
     def step(self):
+        # starting from 0 and down (0,1,2, ...)
         if self.going_down == None:
             self.going_down = False
             return 0
